@@ -1,0 +1,143 @@
+[browser] [v0] Error fetching reviews: Failed to fetch reviews 
+    at ReviewsList.useEffect.fetchReviews (components/reviews/ReviewsList.tsx:51:19)
+  49 |         } else if (!response.ok) {
+  50 |           const errorMsg = data.error || `Failed to fetch reviews (status: ${response.stat...
+> 51 |           console.error('[v0] Error fetching reviews:', errorMsg)
+     |                   ^
+  52 |           setError(errorMsg)
+  53 |         }
+  54 |       } catch (error) { (components/reviews/ReviewsList.tsx:51:19)
+[v0] Supabase error fetching reviews: {
+  "message": "Could not find the table 'public.reviews' in the schema cache",
+  "code": "PGRST205",
+  "details": null,
+  "hint": null
+}
+[v0] Health check: Error querying tables: {
+  code: 'PGRST205',
+  details: null,
+  hint: null,
+  message: "Could not find the table 'public.information_schema.tables' in the schema cache"
+}
+[v0] Error verifying table creation: {
+  code: 'PGRST205',
+  details: null,
+  hint: null,
+  message: "Could not find the table 'public.reviews' in the schema cache"
+}
+[v0] Health check: Reviews table query failed: {
+  code: 'PGRST205',
+  details: null,
+  hint: null,
+  message: "Could not find the table 'public.reviews' in the schema cache"
+}
+[v0] Health check: Table reviews check failed: Could not find the table 'public.reviews' in the schema cache
+[v0] Health check: Table contact_inquiries check failed: Could not find the table 'public.contact_inquiries' in the schema cache
+[v0] Supabase error fetching reviews: {
+  "message": "Could not find the table 'public.reviews' in the schema cache",
+  "code": "PGRST205",
+  "details": null,
+  "hint": null
+}
+[v0] Reviews table not found - database setup needed
+[v0] Health check: Error querying tables: {
+  code: 'PGRST205',
+  details: null,
+  hint: null,
+  message: "Could not find the table 'public.information_schema.tables' in the schema cache"
+}
+[v0] Supabase error inserting review: {
+  "message": "Could not find the table 'public.reviews' in the schema cache",
+  "code": "PGRST205",
+  "details": null,
+  "hint": null
+}
+[v0] Health check: Reviews table query failed: {
+  code: 'PGRST205',
+  details: null,
+  hint: null,
+  message: "Could not find the table 'public.reviews' in the schema cache"
+}
+[v0] Health check: Table reviews check failed: Could not find the table 'public.reviews' in the schema cache
+[v0] Health check: Table contact_inquiries check failed: Could not find the table 'public.contact_inquiries' in the schema cache
+[browser] [v0] Error fetching reviews: Failed to fetch reviews 
+    at ReviewsList.useEffect.fetchReviews (components/reviews/ReviewsList.tsx:51:19)
+  49 |         } else if (!response.ok) {
+  50 |           const errorMsg = data.error || `Failed to fetch reviews (status: ${response.stat...
+> 51 |           console.error('[v0] Error fetching reviews:', errorMsg)
+     |                   ^
+  52 |           setError(errorMsg)
+  53 |         }
+  54 |       } catch (error) { (components/reviews/ReviewsList.tsx:51:19)
+[v0] Supabase error fetching reviews: {
+  "message": "TypeError: fetch failed",
+  "code": "",
+  "details": "TypeError: fetch failed\n\nCaused by: Error: getaddrinfo ENOTFOUND ixdeklahnvslhshindvd.supabase.co (ENOTFOUND)\nError: getaddrinfo ENOTFOUND ixdeklahnvslhshindvd.supabase.co\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)\n    at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)",
+  "hint": ""
+}
+[v0] Supabase error fetching reviews: {
+  "message": "Could not find the table 'public.reviews' in the schema cache",
+  "code": "PGRST205",
+  "details": null,
+  "hint": null
+}
+[v0] Reviews table not found - database setup needed
+[browser] Image with src "/images/pepper-origins.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/tea-product.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/pepper-product.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/cinnamon-product.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/cloves-product.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[v0] Supabase error fetching reviews: {
+  "message": "Could not find the table 'public.reviews' in the schema cache",
+  "code": "PGRST205",
+  "details": null,
+  "hint": null
+}
+[v0] Reviews table not found - database setup needed
+[browser] [v0] Error fetching reviews: Reviews table does not exist. Database setup required. Visit /api/health for diagnostics. (components/reviews/ReviewsList.tsx:51:19)
+[browser] Image with src "/images/tea-origins.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[v0] Supabase error fetching reviews: {
+  "message": "Could not find the table 'public.reviews' in the schema cache",
+  "code": "PGRST205",
+  "details": null,
+  "hint": null
+}
+[v0] Reviews table not found; returning empty public reviews list.
+[v0] Supabase error fetching reviews: {
+  "message": "Could not find the table 'public.reviews' in the schema cache",
+  "code": "PGRST205",
+  "details": null,
+  "hint": null
+}
+[v0] Reviews table not found; returning empty public reviews list.
+[browser] Image with src "/images/tea-product.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/pepper-product.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/cinnamon-product.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/cloves-product.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/tea-origins.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/pepper-origins.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[v0] Supabase error fetching reviews: {
+  "message": "Could not find the table 'public.reviews' in the schema cache",
+  "code": "PGRST205",
+  "details": null,
+  "hint": null
+}
+[v0] Reviews table not found; returning empty public reviews list.
+[browser] Image with src "/images/tea-product.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/cinnamon-product.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/tea-origins.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/pepper-product.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/cloves-product.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/pepper-origins.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/tea-product.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/pepper-product.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/cinnamon-product.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/cloves-product.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/tea-origins.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/pepper-origins.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/tea-product.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/pepper-product.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/cinnamon-product.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/cloves-product.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/tea-origins.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/pepper-origins.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes

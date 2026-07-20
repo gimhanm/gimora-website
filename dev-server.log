@@ -1,0 +1,234 @@
+
+> my-project@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.56.1:3000
+- Environments: .env.local
+✓ Ready in 2.7s
+
+ GET / 200 in 2.3s (next.js: 874ms, application-code: 1385ms)
+[v0] GET /api/reviews request received
+[v0] Supabase client initialized for GET request
+[v0] Fetching approved reviews with limit: 100
+ GET /api/reviews 500 in 1463ms (next.js: 252ms, application-code: 1210ms)
+[v0] Health check: Initializing Supabase client with URL: https://ixdeklahnvslhshindvd.supabase.co
+[v0] Health check: Supabase client created, querying information_schema...
+[v0] POST /api/init-reviews - Initializing reviews table
+[v0] Executing reviews table creation schema
+[v0] Reviews table created successfully
+ POST /api/init-reviews 500 in 2.4s (next.js: 834ms, application-code: 1614ms)
+ GET /api/health 206 in 3.4s (next.js: 710ms, application-code: 2.7s)
+ GET / 200 in 371ms (next.js: 210ms, application-code: 161ms)
+✓ Compiled in 152ms
+ GET / 200 in 326ms (next.js: 167ms, application-code: 160ms)
+[v0] Health check: Initializing Supabase client with URL: https://ixdeklahnvslhshindvd.supabase.co
+[v0] Health check: Supabase client created, querying information_schema...
+[v0] Review POST request received with body: {
+  customer_name: 'Test User',
+  customer_email: 'test@example.com',
+  product_name: 'Pure Ceylon Black Tea',
+  rating: 5,
+  review_text: 'This is a test review with enough characters.'
+}
+[v0] Supabase client initialized successfully
+[v0] Attempting to insert review into database
+[v0] GET /api/reviews request received
+[v0] Supabase client initialized for GET request
+[v0] Fetching approved reviews with limit: 100
+ GET /api/reviews 503 in 997ms (next.js: 12ms, application-code: 985ms)
+ POST /api/reviews 503 in 1248ms (next.js: 182ms, application-code: 1066ms)
+ GET /api/health 206 in 2.7s (next.js: 148ms, application-code: 2.6s)
+[v0] GET /api/reviews request received
+[v0] Supabase client initialized for GET request
+[v0] Fetching approved reviews with limit: 100
+ GET /api/reviews 500 in 7.1s (next.js: 34ms, application-code: 7.1s)
+[v0] GET /api/reviews request received
+[v0] Supabase client initialized for GET request
+[v0] Fetching approved reviews with limit: 100
+ GET /api/reviews 503 in 1505ms (next.js: 56ms, application-code: 1448ms)
+ GET /?customerName=gima&customerEmail=gimhanklp%40gmail.com&productName=Pure+Ceylon+Black+Tea&reviewText=good+product+keep+up 200 in 524ms (next.js: 15ms, application-code: 509ms)
+[v0] GET /api/reviews request received
+[v0] Supabase client initialized for GET request
+[v0] Fetching approved reviews with limit: 100
+ GET /api/reviews 503 in 836ms (next.js: 7ms, application-code: 829ms)
+ GET /?customerName=gima&customerEmail=gimhanklp%40gmail.com&productName=Pure+Ceylon+Black+Tea&reviewText=good+product+keep+up 200 in 391ms (next.js: 208ms, application-code: 183ms)
+[v0] GET /api/reviews request received
+[v0] Supabase client initialized for GET request
+[v0] Fetching approved reviews with limit: 100
+ GET /api/reviews 200 in 999ms (next.js: 183ms, application-code: 815ms)
+[v0] GET /api/reviews request received
+[v0] Supabase client initialized for GET request
+[v0] Fetching approved reviews with limit: 100
+ GET /api/reviews 200 in 748ms (next.js: 9ms, application-code: 738ms)
+ GET /?customerName=gima&customerEmail=gimhanklp%40gmail.com&productName=Pure+Ceylon+Black+Tea&reviewText=good+product+keep+up 200 in 372ms (next.js: 10ms, application-code: 362ms)
+[v0] GET /api/reviews request received
+[v0] Supabase client initialized for GET request
+[v0] Fetching approved reviews with limit: 100
+ GET /api/reviews 200 in 795ms (next.js: 6ms, application-code: 789ms)
+[v0] Review POST request received with body: {
+  customer_name: 'gima',
+  customer_email: 'gimhanklp@gmail.com',
+  product_name: 'Pure Ceylon Black Tea',
+  rating: 4,
+  review_text: 'good product keep up'
+}
+[v0] Supabase client initialized successfully
+[v0] Attempting to insert review into database
+[v0] Review inserted successfully: {
+  id: 1,
+  customer_name: 'gima',
+  customer_email: 'gimhanklp@gmail.com',
+  product_name: 'Pure Ceylon Black Tea',
+  rating: 4,
+  review_text: 'good product keep up',
+  verified_purchase: false,
+  is_approved: false,
+  created_at: '2026-07-10T08:39:21.043+00:00',
+  updated_at: '2026-07-10T08:39:25.035597+00:00',
+  admin_notes: null
+}
+ POST /api/reviews 201 in 946ms (next.js: 6ms, application-code: 940ms)
+✓ Compiled in 445ms
+ GET /?customerName=gima&customerEmail=gimhanklp%40gmail.com&productName=Pure+Ceylon+Black+Tea&reviewText=good+product+keep+up 200 in 503ms (next.js: 201ms, application-code: 302ms)
+ GET /?customerName=gima&customerEmail=gimhanklp%40gmail.com&productName=Pure+Ceylon+Black+Tea&reviewText=good+product+keep+up 200 in 176ms (next.js: 14ms, application-code: 162ms)
+ GET /?customerName=gima&customerEmail=gimhanklp%40gmail.com&productName=Pure+Ceylon+Black+Tea&reviewText=good+product+keep+up 200 in 271ms (next.js: 143ms, application-code: 128ms)
+ GET /?customerName=gima&customerEmail=gimhanklp%40gmail.com&productName=Pure+Ceylon+Black+Tea&reviewText=good+product+keep+up 200 in 395ms (next.js: 15ms, application-code: 380ms)
+[v0] GET /api/reviews request received
+[v0] Supabase client initialized for GET request
+[v0] Fetching approved reviews with limit: 100
+[v0] Reviews fetched successfully: 0 reviews
+[v0] Review stats calculated: {
+  total: 0,
+  averageRating: '0.0',
+  counts: { '1': 0, '2': 0, '3': 0, '4': 0, '5': 0 }
+}
+ GET /api/reviews 200 in 1219ms (next.js: 150ms, application-code: 1069ms)
+[v0] Review POST request received with body: {
+  customer_name: 'gima',
+  customer_email: 'gimhanklp@gmail.com',
+  product_name: 'Pure Ceylon Black Tea',
+  rating: 4,
+  review_text: 'good product keep up'
+}
+[v0] Supabase client initialized successfully
+[v0] Attempting to insert review into database
+[v0] Review inserted successfully: {
+  id: 2,
+  customer_name: 'gima',
+  customer_email: 'gimhanklp@gmail.com',
+  product_name: 'Pure Ceylon Black Tea',
+  rating: 4,
+  review_text: 'good product keep up',
+  verified_purchase: false,
+  is_approved: true,
+  created_at: '2026-07-10T08:43:24.687+00:00',
+  updated_at: '2026-07-10T08:43:28.661236+00:00',
+  admin_notes: null
+}
+ POST /api/reviews 201 in 1030ms (next.js: 6ms, application-code: 1025ms)
+ GET /?customerName=gima&customerEmail=gimhanklp%40gmail.com&productName=Pure+Ceylon+Black+Tea&reviewText=good+product+keep+up 200 in 417ms (next.js: 139ms, application-code: 278ms)
+ GET /?customerName=gima&customerEmail=gimhanklp%40gmail.com&productName=Pure+Ceylon+Black+Tea&reviewText=good+product+keep+up 200 in 188ms (next.js: 8ms, application-code: 180ms)
+ GET /?customerName=gima&customerEmail=gimhanklp%40gmail.com&productName=Pure+Ceylon+Black+Tea&reviewText=good+product+keep+up 200 in 87ms (next.js: 7ms, application-code: 79ms)
+✓ Compiled in 84ms
+ GET /?customerName=gima&customerEmail=gimhanklp%40gmail.com&productName=Pure+Ceylon+Black+Tea&reviewText=good+product+keep+up 200 in 228ms (next.js: 135ms, application-code: 93ms)
+[v0] Review POST request received with body: {
+  customer_name: 'gima',
+  customer_email: 'gimhanklp@gmail.com',
+  product_name: 'Pure Ceylon Black Tea',
+  rating: 5,
+  review_text: 'good product keep up and excellent quality tea'
+}
+[v0] Supabase client initialized successfully
+[v0] Attempting to insert review into database
+[v0] Review inserted successfully: {
+  id: 3,
+  customer_name: 'gima',
+  customer_email: 'gimhanklp@gmail.com',
+  product_name: 'Pure Ceylon Black Tea',
+  rating: 5,
+  review_text: 'good product keep up and excellent quality tea',
+  verified_purchase: false,
+  is_approved: true,
+  created_at: '2026-07-10T08:45:37.533+00:00',
+  updated_at: '2026-07-10T08:45:41.931923+00:00',
+  admin_notes: null
+}
+ POST /api/reviews 201 in 1573ms (next.js: 95ms, application-code: 1478ms)
+[v0] GET /api/reviews request received
+[v0] Supabase client initialized for GET request
+[v0] Fetching approved reviews with limit: 100
+[v0] Reviews fetched successfully: 2 reviews
+ GET /api/reviews 200 in 974ms (next.js: 4ms, application-code: 970ms)
+ GET /?customerName=gima&customerEmail=gimhanklp%40gmail.com&productName=Pure+Ceylon+Black+Tea&reviewText=good+product+keep+up 200 in 430ms (next.js: 9ms, application-code: 420ms)
+[v0] GET /api/reviews request received
+[v0] Supabase client initialized for GET request
+[v0] Fetching approved reviews with limit: 100
+[v0] Reviews fetched successfully: 2 reviews
+ GET /api/reviews 200 in 1674ms (next.js: 7ms, application-code: 1667ms)
+[v0] Contact form POST request received
+[v0] Form data received: {
+  name: 'gima',
+  email: 'gimhanklp@gmail.com',
+  phone: '0784230450',
+  messageLength: 24
+}
+[v0] Supabase client initialized
+[v0] Attempting to insert contact inquiry into database
+[v0] Contact inquiry inserted successfully: 1179cd16-016f-45c2-a53d-faa4e1dc304c
+Email notification would be sent to business owner: {
+  to: 'contactgimora@gmail.com',
+  subject: 'New Inquiry from GIMORA Website',
+  html: '\n' +
+    '    <html>\n' +
+    '      <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">\n' +
+    '        <h2 style="color: #123524;">New Inquiry from GIMORA Website</h2>\n' +
+    '        <p style="margin: 10px 0;"><strong>Customer Name:</strong> gima</p>\n' +
+    '        <p style="margin: 10px 0;"><strong>Customer Email:</strong> gimhanklp@gmail.com</p>\n' +
+    '        <p style="margin: 10px 0;"><strong>Phone Number:</strong> 0784230450</p>\n' +
+    '        <p style="margin: 10px 0;"><strong>Date & Time:</strong> 7/10/2026, 2:18:11 PM</p>\n' +
+    '        <hr style="margin: 20px 0; border: none; border-top: 1px solid #ddd;">\n' +
+    '        <p style="margin: 10px 0;"><strong>Message:</strong></p>\n' +
+    '        <p style="margin: 10px 0; background-color: #f5f5f5; padding: 10px; border-radius: 5px;">\n' +
+    '          gtrgrrrg rtfergeg regr3t\n' +
+    '        </p>\n' +
+    '      </body>\n' +
+    '    </html>\n' +
+    '  '
+}
+ POST /api/contact 200 in 1432ms (next.js: 343ms, application-code: 1089ms)
+ GET /?customerName=gima&customerEmail=gimhanklp%40gmail.com&productName=Pure+Ceylon+Black+Tea&reviewText=good+product+keep+up 200 in 155ms (next.js: 8ms, application-code: 148ms)
+[v0] GET /api/reviews request received
+[v0] Supabase client initialized for GET request
+[v0] Fetching approved reviews with limit: 100
+[v0] Reviews fetched successfully: 0 reviews
+ GET /api/reviews 200 in 973ms (next.js: 5ms, application-code: 968ms)
+[v0] Review POST request received with body: {
+  customer_name: 'gimhan',
+  customer_email: 'gimhanklp@gmail.com',
+  product_name: 'Pure Ceylon Black Tea',
+  rating: 4,
+  review_text: 'good product keep up'
+}
+[v0] Supabase client initialized successfully
+[v0] Attempting to insert review into database
+[v0] Review inserted successfully: {
+  id: 4,
+  customer_name: 'gimhan',
+  customer_email: 'gimhanklp@gmail.com',
+  product_name: 'Pure Ceylon Black Tea',
+  rating: 4,
+  review_text: 'good product keep up',
+  verified_purchase: false,
+  is_approved: true,
+  created_at: '2026-07-10T08:50:25.478+00:00',
+  updated_at: '2026-07-10T08:50:29.369343+00:00',
+  admin_notes: null
+}
+ POST /api/reviews 201 in 752ms (next.js: 5ms, application-code: 747ms)
+[v0] GET /api/reviews request received
+[v0] Supabase client initialized for GET request
+[v0] Fetching approved reviews with limit: 100
+[v0] Reviews fetched successfully: 1 reviews
+ GET /api/reviews 200 in 289ms (next.js: 5ms, application-code: 285ms)
